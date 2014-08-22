@@ -42,16 +42,30 @@
       },
       "runtime" : {
          "requires" : {
+            "Term::ANSIColor" : "0",
             "perl" : "5.008001"
          }
       },
       "test" : {
          "requires" : {
+            "Perl::Critic" : "0",
+            "Test::Differences" : "0",
             "Test::More" : "0.98"
          }
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/ytnobody/Perl-Critic-Reporter/issues"
+      },
+      "homepage" : "https://github.com/ytnobody/Perl-Critic-Reporter",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/ytnobody/Perl-Critic-Reporter.git",
+         "web" : "https://github.com/ytnobody/Perl-Critic-Reporter"
+      }
+   },
    "version" : "0.01",
    "x_authority" : "cpan:YTURTLE"
 }
