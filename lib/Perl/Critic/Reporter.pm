@@ -26,7 +26,7 @@ sub report_critic {
             }
 
             printf "  * [line %s] %s " => $violation->line_number, $violation->description || 'a something violation found';
-            printf colored("(%s)" => 'yellow') => $violation->element_class;
+            printf colored("(%s)" => 'yellow') => $violation->policy;
             print "\n";
         }
 
